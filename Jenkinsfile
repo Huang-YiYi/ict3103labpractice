@@ -16,7 +16,7 @@ pipeline {
 					sh "${tool("SonarQube")}/bin/sonar-scanner \
 					-Dsonar.projectKey=ict3103 \
 					-Dsonar.sources=. \
-					-Dsonar.host.url=http://35.247.190.80:9000 \
+					-Dsonar.host.url=http://192.168.1.118/:9000 \
 					-Dsonar.login=ba2e95e1007d142a697c3a71c6f79f9c9dd983dd"
 					}
 				}
